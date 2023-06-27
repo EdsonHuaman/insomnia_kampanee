@@ -1,0 +1,49 @@
+_id: req_fc49f44fd9904bce95e29090653fb00d
+type: Request
+parentId: fld_016008250c90406b97acd24cabb667a0
+modified: 1687887543691
+created: 1687887543691
+url: "{{ _.base_url }}{{ _.actualizar_producto }}775"
+name: actualizar producto
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"descripcion": "triple reglón",
+    	"codebar": null,
+    	"foto": "https:\/\/apiqa.kampanee.com\/public\/storage\/products\/default_img.png",
+    	"impulsar": "0",
+    	"marca_id": 1,
+    	"subcategoria_id": 1,
+    	"unidad_medida_id": 1,
+    	"empresa_id": 2,
+    	"cantidad": 100,
+    	"created_at": "2023-06-23T22:58:31.000000Z",
+    	"supercategoria_id": 1,
+    	"categoria_id": null,
+    	"tipo_negocio_id": null,
+    	"granel": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_90477acb392b48f68578f1638d8c6d00
+  - id: pair_b7af651d6836492caf2970c59c147756
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4626a4ed556c41a880f828dc333464e9',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1687560533546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

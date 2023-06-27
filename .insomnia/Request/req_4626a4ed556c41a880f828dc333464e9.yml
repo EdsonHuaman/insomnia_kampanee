@@ -1,0 +1,34 @@
+_id: req_4626a4ed556c41a880f828dc333464e9
+type: Request
+parentId: wrk_e1e619cfd8c74cf69c87cc22b0059871
+modified: 1687887560116
+created: 1687558581247
+url: "{{ _.base_url }}{{ _.entrar }}"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "stray2925@gmail.com",
+    	"password": "dhenis"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d77de45635f643f3a004dc949715da07
+  - id: pair_6ccfc68626734324a4f7846abc05e72c
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_cff75f05fd474b85b77dbc0e73275158
+type: Request
+parentId: fld_016008250c90406b97acd24cabb667a0
+modified: 1687887543688
+created: 1687887543688
+url: "{{ _.base_url }}{{ _.producto }}"
+name: retornar producto
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4626a4ed556c41a880f828dc333464e9',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1687560100251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

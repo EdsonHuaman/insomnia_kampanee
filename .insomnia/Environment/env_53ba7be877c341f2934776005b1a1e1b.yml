@@ -1,0 +1,14 @@
+_id: env_53ba7be877c341f2934776005b1a1e1b
+type: Environment
+parentId: env_5425ca9bb2a303d95dbb06819537c3ab5af72fc3
+modified: 1687887731874
+created: 1687887704785
+name: QA
+data:
+  base_url: https://apiqa.kampanee.com/public/api/
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1687887704785

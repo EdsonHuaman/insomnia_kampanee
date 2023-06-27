@@ -1,0 +1,24 @@
+_id: req_22b0d5004ff54b9385f8210eb19c0938
+type: Request
+parentId: fld_171e2ba93d144f3185e4ec507d049417
+modified: 1687887519477
+created: 1687887519477
+url: "{{ _.base_url }}{{ _.retornar }}"
+name: retornar marca
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4626a4ed556c41a880f828dc333464e9',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1687559618933
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

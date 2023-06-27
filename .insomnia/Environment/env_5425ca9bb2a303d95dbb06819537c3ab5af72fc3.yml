@@ -1,0 +1,28 @@
+_id: env_5425ca9bb2a303d95dbb06819537c3ab5af72fc3
+type: Environment
+parentId: wrk_e1e619cfd8c74cf69c87cc22b0059871
+modified: 1687887671778
+created: 1687885868771
+name: Base Environment
+data:
+  entrar: login
+  create_brands: marcas/create
+  borrar: marcas/delete/
+  retornar: marcas/empresa/get
+  eleminar_producto: productos/delete/
+  producto: productos/empresa/get
+  actualizar_producto: productos/update/
+  actualizar: marcas/update/
+dataPropertyOrder:
+  "&":
+    - entrar
+    - create_brands
+    - borrar
+    - retornar
+    - eleminar_producto
+    - producto
+    - actualizar_producto
+    - actualizar
+color: null
+isPrivate: false
+metaSortKey: 1687885868771
