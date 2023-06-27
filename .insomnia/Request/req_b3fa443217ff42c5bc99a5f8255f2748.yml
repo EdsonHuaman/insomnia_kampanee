@@ -1,9 +1,9 @@
 _id: req_b3fa443217ff42c5bc99a5f8255f2748
 type: Request
 parentId: fld_171e2ba93d144f3185e4ec507d049417
-modified: 1687887519480
+modified: 1687893523970
 created: 1687887519480
-url: "{{ _.base_url }}{{ _.actualizar }}2781"
+url: "{{ _.base_url }}{{ _.actualizar }}2754"
 name: actualizar marca
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nombre" : "FRANK EL SENTADO"
+    	"nombre" : "FRANK EL weveo"
     }
 parameters: []
 headers:

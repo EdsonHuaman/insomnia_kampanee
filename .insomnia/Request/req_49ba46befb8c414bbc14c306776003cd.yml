@@ -1,9 +1,9 @@
 _id: req_49ba46befb8c414bbc14c306776003cd
 type: Request
 parentId: fld_171e2ba93d144f3185e4ec507d049417
-modified: 1687887519482
+modified: 1687893537357
 created: 1687887519482
-url: "{{ _.base_url }}{{ _.borrar }}2780"
+url: "{{ _.base_url }}{{ _.borrar }}2754"
 name: borrar marca
 description: ""
 method: DELETE

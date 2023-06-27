@@ -1,0 +1,21 @@
+_id: req_b8080097d8b948adbbdfa9d748e5d9c7
+type: Request
+parentId: fld_7e28911bf5f94d6a82104eeeeaa8cdb8
+modified: 1687906900798
+created: 1687906717287
+url: "{{ _.base_url }}{{ _.producto_retornar }}3/1"
+name: retornar mis productos por id y id local
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1687906717287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

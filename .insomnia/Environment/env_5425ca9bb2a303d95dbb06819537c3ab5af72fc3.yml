@@ -1,7 +1,7 @@
 _id: env_5425ca9bb2a303d95dbb06819537c3ab5af72fc3
 type: Environment
 parentId: wrk_e1e619cfd8c74cf69c87cc22b0059871
-modified: 1687887671778
+modified: 1687908003622
 created: 1687885868771
 name: Base Environment
 data:
@@ -11,8 +11,19 @@ data:
   retornar: marcas/empresa/get
   eleminar_producto: productos/delete/
   producto: productos/empresa/get
+  crear_producto: productos/create
   actualizar_producto: productos/update/
   actualizar: marcas/update/
+  perfil_clientes: clientes/me
+  actualizar_perfil: clientes/updateMe
+  foto_actualizar: clientes/actualizarFoto/
+  modificar: clientes/changePassword
+  locales: empresa/locales/getLocalesBodegas
+  retornar_locales: empresa/locales/get/
+  locales_productos: producto/locales
+  producto_retornar: productos/mis_productos_local/get/
+  productreturn: productos/get/
+  promocion: promociones/get/
 dataPropertyOrder:
   "&":
     - entrar
@@ -21,8 +32,19 @@ dataPropertyOrder:
     - retornar
     - eleminar_producto
     - producto
+    - crear_producto
     - actualizar_producto
     - actualizar
+    - perfil_clientes
+    - actualizar_perfil
+    - foto_actualizar
+    - modificar
+    - locales
+    - retornar_locales
+    - locales_productos
+    - producto_retornar
+    - productreturn
+    - promocion
 color: null
 isPrivate: false
 metaSortKey: 1687885868771

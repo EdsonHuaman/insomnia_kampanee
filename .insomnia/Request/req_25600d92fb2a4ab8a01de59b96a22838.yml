@@ -1,0 +1,45 @@
+_id: req_25600d92fb2a4ab8a01de59b96a22838
+type: Request
+parentId: fld_da7620805326467082dc5ab7e92362a7
+modified: 1687899822973
+created: 1687897618318
+url: "{{ _.base_url }}{{ _.actualizar_perfil }}"
+name: actualizar perfil
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    			"id": 4,
+    			"tipo_documento_id": null,
+    			"numero_doc": null,
+    			"email": "edson1457@gmail.com",
+    			"celular": "",
+    			"telefono": 6524569,
+    			"nombre": "Edson",
+    			"apellido_pat": "Huaman",
+    			"apellido_mat": "Burgos",
+    			"foto": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_995bdda9274944ed8fdfaef5dd133039
+  - id: pair_29f91b3819cd413ea61bc83b98e53cff
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4626a4ed556c41a880f828dc333464e9',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1687897618318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

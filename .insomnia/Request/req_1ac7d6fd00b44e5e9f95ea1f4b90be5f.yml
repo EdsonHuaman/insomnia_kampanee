@@ -1,30 +1,21 @@
-_id: req_63f107e3436d4416ab34ee0f5d9b455d
+_id: req_1ac7d6fd00b44e5e9f95ea1f4b90be5f
 type: Request
-parentId: fld_016008250c90406b97acd24cabb667a0
-modified: 1687904460676
-created: 1687887519485
-url: "{{ _.base_url }}{{ _.crear_producto }}"
-name: crear producto
+parentId: fld_da7620805326467082dc5ab7e92362a7
+modified: 1687897612574
+created: 1687896636989
+url: "{{ _.base_url }}{{ _.perfil_clientes }}"
+name: perfil
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"descripcion": "Manzana de agua",
-    	"codebar": "",
-    	"foto": "",
-    	"subcategoria_id": 0,
-    	"marca_id": 721,
-    	"unidad_medida_id": 0,
-    	"cantidad": 1
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a8bfb64cd8f740a18e35ee72896ba3fa
-  - id: pair_30a9303db2e94aae86adff70cd7595cc
+    id: pair_596d596cbf7f433e9b8be6361ff002c7
+  - id: pair_cdedcee3da9d4a9ab6204d1c5eabc1cf
     name: Accept
     value: application/json
     description: ""
@@ -32,7 +23,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_4626a4ed556c41a880f828dc333464e9',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}"
-metaSortKey: -1687561039418
+metaSortKey: -1687896636989
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

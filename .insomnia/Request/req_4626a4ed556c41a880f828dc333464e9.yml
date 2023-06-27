@@ -1,7 +1,7 @@
 _id: req_4626a4ed556c41a880f828dc333464e9
 type: Request
-parentId: wrk_e1e619cfd8c74cf69c87cc22b0059871
-modified: 1687887560116
+parentId: fld_459b326e105f48ebb17813d683041045
+modified: 1687901601776
 created: 1687558581247
 url: "{{ _.base_url }}{{ _.entrar }}"
 name: login
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username": "stray2925@gmail.com",
-    	"password": "dhenis"
+    	"username": "edson1457@gmail.com",
+    	"password": "eddie"
     }
 parameters: []
 headers:
@@ -24,7 +24,7 @@ headers:
     value: application/json
     description: ""
 authentication: {}
-metaSortKey: -1000000000
+metaSortKey: -1687896487129.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
