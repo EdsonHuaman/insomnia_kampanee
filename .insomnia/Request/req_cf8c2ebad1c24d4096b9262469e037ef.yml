@@ -1,0 +1,25 @@
+_id: req_cf8c2ebad1c24d4096b9262469e037ef
+type: Request
+parentId: fld_4d08679c38be40abb08195bd8f0e75ed
+modified: 1687992869427
+created: 1687992643882
+url: https://dniruc.apisperu.com/api/v1/dni/74038971?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImJpeWV5aW0zMTlAY2FycGV0ZC5jb20ifQ.NaXtG7Nokt0tybRlEkuffmsKPjX4Gk8k-2pX7Rgn3j0
+name: documento de identidad
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f28ebae73a68410a82b7f3ddb1a1bc56
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1687992643882
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

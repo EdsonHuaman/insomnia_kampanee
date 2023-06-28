@@ -1,9 +1,9 @@
 _id: req_a551d5e3508c47d8935c7a82a36cc12a
 type: Request
 parentId: fld_2df65982da8a44808c043958ac01aa82
-modified: 1687902321231
+modified: 1687984549939
 created: 1687901744181
-url: "{{ _.base_url }}{{ _.retornar_locales }}1"
+url: "{{ _.base_url }}{{ _.retornar_locales }}3"
 name: retornar local
 description: ""
 method: GET

@@ -1,7 +1,7 @@
 _id: env_5425ca9bb2a303d95dbb06819537c3ab5af72fc3
 type: Environment
 parentId: wrk_e1e619cfd8c74cf69c87cc22b0059871
-modified: 1687908003622
+modified: 1687992126548
 created: 1687885868771
 name: Base Environment
 data:
@@ -23,7 +23,27 @@ data:
   locales_productos: producto/locales
   producto_retornar: productos/mis_productos_local/get/
   productreturn: productos/get/
-  promocion: promociones/get/
+  promocion: promociones/get
+  retornar_promocion: promociones/local/get/
+  return_promotion: promociones/get/
+  agregar_direc: clientes/addDireccion
+  editar_direc: clientes/updateDireccion/
+  eliminar_direc: clientes/deleteDireccion/
+  direc_retornar: clientes/getDirecciones
+  crear_pedidos: pedidos/cliente/createPedidoTemporal
+  pedido_return: pedidos/cliente/getPedidosGuardados
+  guardado_pedido: pedidos/cliente/getPedidoGuardado/
+  enviar_pedido: pedidos/cliente/enviarPedido/
+  aprobado_envio: pedidos/cliente/enviarAprobacionCostoEnvioCliente/
+  rechazo_pedido: pedidos/cliente/rechazadoCliente/
+  mispedidos: pedidos/cliente/getMisPedidos
+  mispedidos_return: pedidos/get/
+  tipo_docu: usuario/tipo_documento/get
+  tipo_vaucher: ventas/tipo_venta/get
+  ubigeo: departamentos/get
+  depa_retornar: departamentos/get/
+  provincias: provincias/get/
+  distrito: distritos/get
 dataPropertyOrder:
   "&":
     - entrar
@@ -45,6 +65,26 @@ dataPropertyOrder:
     - producto_retornar
     - productreturn
     - promocion
+    - retornar_promocion
+    - return_promotion
+    - agregar_direc
+    - editar_direc
+    - eliminar_direc
+    - direc_retornar
+    - crear_pedidos
+    - pedido_return
+    - guardado_pedido
+    - enviar_pedido
+    - aprobado_envio
+    - rechazo_pedido
+    - mispedidos
+    - mispedidos_return
+    - tipo_docu
+    - tipo_vaucher
+    - ubigeo
+    - depa_retornar
+    - provincias
+    - distrito
 color: null
 isPrivate: false
 metaSortKey: 1687885868771
