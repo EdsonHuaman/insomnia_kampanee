@@ -1,21 +1,22 @@
 _id: req_612ef0df5e0f41869466a0c9aec631e9
 type: Request
 parentId: fld_da7620805326467082dc5ab7e92362a7
-modified: 1687900048640
+modified: 1688159267141
 created: 1687898191366
-url: "{{ _.base_url }}{{ _.foto_actualizar }}"
+url: "{{ _.base_url }}{{ _.foto_actualizar }}1"
 name: actualizar foto
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_23f0658020014a058964e6fd7679b6e2
+    - id: pair_502ffb018ca24614b0e2a8a77245f11f
       name: foto
       value: ""
       description: ""
+      disabled: false
       type: file
-      fileName: C:\Users\gjrom\Downloads\JWYU7BYMDNGKBMYPCOLVFUX4M4.png
+      fileName: C:\Users\gjrom\Downloads\user-profile-icon-free-vector.jpg
 parameters: []
 headers:
   - name: Content-Type

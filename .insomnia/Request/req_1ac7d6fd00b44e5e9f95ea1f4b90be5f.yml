@@ -1,20 +1,15 @@
 _id: req_1ac7d6fd00b44e5e9f95ea1f4b90be5f
 type: Request
 parentId: fld_da7620805326467082dc5ab7e92362a7
-modified: 1687897612574
+modified: 1688158133876
 created: 1687896636989
 url: "{{ _.base_url }}{{ _.perfil_clientes }}"
 name: perfil
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_596d596cbf7f433e9b8be6361ff002c7
   - id: pair_cdedcee3da9d4a9ab6204d1c5eabc1cf
     name: Accept
     value: application/json
